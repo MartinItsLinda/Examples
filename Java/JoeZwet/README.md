@@ -10,3 +10,11 @@ Maven:
     <version>20160810</version>
 </dependency>
 ```
+Main.java will print the following in console if the ip is changed:
+```
+Status: true
+Hostname: localhost
+Port: 25565
+Ping: 35
+Players: 1/20 (online/max)
+```
