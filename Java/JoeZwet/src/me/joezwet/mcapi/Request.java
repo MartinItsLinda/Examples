@@ -101,8 +101,7 @@ public class Request {
 				System.out.printf("Textures.Minecraft.net: %s\n", textures);
 				System.out.printf("Mojang.com: %s\n", mojang);
 			} else {
-				Error error = new Error("Type \"" + requestType + "\" not found.");
-				System.err.println(error);
+				System.err.println("Request type: \"" + type + "\" not found.");
 			}
 		} catch (URISyntaxException e) {
 			e.printStackTrace();
